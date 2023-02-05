@@ -1,7 +1,6 @@
-import React from 'react';
 import styled from 'styled-components';
 
-export default styled.div<{
+export const Block = styled.div<{
   marginTop?: string;
   marginBottom?: string;
   marginLeft?: string;

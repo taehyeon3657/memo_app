@@ -1,8 +1,7 @@
-import MemoEditor from 'app/components/Editor';
-import MemoList from 'app/components/List';
-import MemoToolBar from 'app/components/Toolbar';
+import MemoEditor from 'app/components/Memo/Editor';
+import MemoList from 'app/components/Memo/List';
+import MemoToolBar from 'app/components/Memo/Toolbar';
 import * as React from 'react';
-import { Helmet } from 'react-helmet-async';
 import styled from 'styled-components';
 
 const FlexRow = styled.div`
